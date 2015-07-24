@@ -1,0 +1,7 @@
+defscrollback 8192
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{= ky}%-Lw%{=r}%20>%n %t%{= ky}%+Lw %{= ky}%-=| %{= kw}%M%d %c%{-} %{=r} ${USER}@%H "
+termcapinfo xterm ti@:te@
+caption always "%{= kr} %{+b} %n %t ${USER}@%H %C%A %D %d-%m-%Y%{= kr} "
+fit
